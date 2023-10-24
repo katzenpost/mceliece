@@ -1,6 +1,12 @@
 // Package schemes contains a register of KEM schemes.
 package schemes
 
+import (
+	"strings"
+
+	"github.com/katzenpost/mceliece/kem"
+)
+
 var allSchemes = [...]kem.Scheme{}
 
 var allSchemeNames map[string]kem.Scheme
