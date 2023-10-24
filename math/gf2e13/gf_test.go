@@ -3,7 +3,7 @@ package gf2e13
 import (
 	"testing"
 
-	"github.com/cloudflare/circl/internal/test"
+	"github.com/katzenpost/mceliece/internal/test"
 )
 
 type (

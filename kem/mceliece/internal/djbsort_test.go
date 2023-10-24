@@ -5,7 +5,7 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/cloudflare/circl/internal/test"
+	"github.com/katzenpost/mceliece/internal/test"
 )
 
 type (

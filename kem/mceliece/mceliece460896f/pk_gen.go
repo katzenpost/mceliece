@@ -6,7 +6,7 @@
 package mceliece460896f
 
 import (
-	"github.com/cloudflare/circl/kem/mceliece/internal"
+	"github.com/katzenpost/mceliece/kem/mceliece/internal"
 )
 
 const exponent = 128

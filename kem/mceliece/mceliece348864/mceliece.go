@@ -18,11 +18,11 @@ import (
 	cryptoRand "crypto/rand"
 	"io"
 
-	"github.com/cloudflare/circl/internal/nist"
-	"github.com/cloudflare/circl/internal/sha3"
-	"github.com/cloudflare/circl/kem"
-	"github.com/cloudflare/circl/kem/mceliece/internal"
-	"github.com/cloudflare/circl/math/gf2e12"
+	"github.com/katzenpost/mceliece/internal/nist"
+	"github.com/katzenpost/mceliece/internal/sha3"
+	"github.com/katzenpost/mceliece/kem"
+	"github.com/katzenpost/mceliece/kem/mceliece/internal"
+	"github.com/katzenpost/mceliece/math/gf2e12"
 )
 
 const (

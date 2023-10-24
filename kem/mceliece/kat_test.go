@@ -9,9 +9,9 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/cloudflare/circl/internal/nist"
-	"github.com/cloudflare/circl/internal/test"
-	"github.com/cloudflare/circl/kem/schemes"
+	"github.com/katzenpost/mceliece/internal/nist"
+	"github.com/katzenpost/mceliece/internal/test"
+	"github.com/katzenpost/mceliece/kem/schemes"
 )
 
 func TestPQCgenKATKem(t *testing.T) {

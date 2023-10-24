@@ -23,11 +23,11 @@ import (
 	{{if .Is6960119}} "fmt" {{end}}
 	"io"
 
-	"github.com/cloudflare/circl/internal/nist"
-	"github.com/cloudflare/circl/internal/sha3"
-	"github.com/cloudflare/circl/kem"
-	"github.com/cloudflare/circl/math/{{.Param.Gf}}"
-	"github.com/cloudflare/circl/kem/mceliece/internal"
+	"github.com/katzenpost/mceliece/internal/nist"
+	"github.com/katzenpost/mceliece/internal/sha3"
+	"github.com/katzenpost/mceliece/kem"
+	"github.com/katzenpost/mceliece/math/{{.Param.Gf}}"
+	"github.com/katzenpost/mceliece/kem/mceliece/internal"
 )
 
 const (

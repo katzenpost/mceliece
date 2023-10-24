@@ -10,7 +10,7 @@
 package {{.Pkg}}
 
 import (
-	"github.com/cloudflare/circl/kem/mceliece/internal"
+	"github.com/katzenpost/mceliece/kem/mceliece/internal"
 )
 
 {{ if .Is348864 }}
